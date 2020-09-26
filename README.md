@@ -53,11 +53,11 @@ If you set the switch to "Slow", you must manually add spaces between words with
    2. Solder the Speed Switch onto the PCB. This requires precise SMD soldering as the switch is tiny
    3. Solder the key switch onto the PCB
    4. Solder the PCB to the Digispark
-6. Upload the code. Visit my [DigisparkMorseKeyboard repository](https://github.com/maludo99/DigisparkMorseKeyboard) for reference.
+6. Upload the code to the Digispark. Visit my [DigisparkMorseKeyboard repository](https://github.com/maludo99/DigisparkMorseKeyboard) for reference.
 
 
 Feel free to improve my PCB design (e.g. add compability for other key switches). You can find the KiCad PCB Design files at [./KiCadFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles).
 
-The PCB looks like this:
+The PCB inside KiCad looks like this:
 
 ![Picture](https://raw.githubusercontent.com/maludo99/MaludoUno/master/MaludoUnoPCBDesign.jpg?raw=true)
