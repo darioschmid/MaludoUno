@@ -15,8 +15,7 @@ It is based on a AtMega32u4 Microcontroller. In contrast, my "Maludo Uno" is bas
 
 ## My Design
 
-I used my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) Arduino Script to be able to use Morse Code for Input. Before I hardly knew any Morse Codes, but I reckoned this would be quite a fun project for getting involved into Morse Code.\
-Go to [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) for the software side of things.
+I used my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) Arduino Script to be able to use Morse Code for Input. Before I hardly knew any Morse Codes, but I reckoned this would be quite a fun project for getting involved into Morse Code.
 
 ### Advantages
 
@@ -30,21 +29,36 @@ Go to [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeybo
 * Not QMK compatible (AtTiny has no native USB support)
 
 
-## Operation
+## How To Use It
 
 Visit [DigiskarkMorseCode/MorseCodes.txt](https://raw.githubusercontent.com/maludo99/DigisparkMorseKeyboard/master/MorseCodes.txt), or open a Text Editor and hold the key for 4sec. It prints out all available Morse Codes.
 
 Example:
-```
-"M  A   L    U   D   O      U  N   O"
-"-- •- •-•• ••- -•• ---    ••- -• ---"
-```
+
+    "M  A   L    U   D   O      U  N   O"
+    "-- •- •-•• ••- -•• ---    ••- -• ---"
+
 
 Setting the Speed Switch to "Fast" activates automatic space insertion between words and allows your "dah's" (long presses) to be shorter.\
 If you are in "slow Speed Mode", you must manually add spaces using the morse codes "----" or "•-•••"
 
 ## How To Do It Yourself
 
-You can find the KiCad PCB Design files aswell as the gerber files at [./KiCadFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles). The PCB wil look like this:
+1. Get a [Digispark](https://www.amazon.de/AZDelivery-Digispark-kompatibles-Development-ATtiny85/dp/B076KVKHH1)
+2. Order the PCB (I got mine from [jlcpcb.com](https://jlcpcb.com/)). You can find the gerber files at [./KiCadFiles/gerber](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles)
+3. Get yourself a Cherry MX style key switch
+4. (Optional) Get yourself a [MSK 12C01](https://www.ebay.de/itm/SMD-Miniatur-Schiebeschalter-Switch-Schalter-Micro-Mini-Ein-Aus-3-Pin-MSK-12C01/173613966570) SMD Switch
+5. Soldering
+   1. Solder Male Headers onto the Digispark (facing upwards)
+   2. Solder the Speed Switch onto the PCB. This requires precise SMD soldering as the switch is very small
+   3. Solder the key switch onto the PCB
+   4. Drop in the PCB on the male headers of the Digispark
+   5. Solder the male pins to the PCB
+6. Upload the code. Visit my [DigisparkMorseKeyboard repository](https://github.com/maludo99/DigisparkMorseKeyboard) for reference.
+
+
+Feel free to improve my PCB design (e.g. add compability for other key switches). You can find the KiCad PCB Design files at [./KiCadFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles).
+
+The PCB looks like this:
 
 ![Picture](https://raw.githubusercontent.com/maludo99/MaludoUno/master/MaludoUnoPCBDesign.jpg?raw=true)
