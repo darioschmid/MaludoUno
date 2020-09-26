@@ -13,9 +13,9 @@ I was inspired by [Snipeye's Uno](https://www.reddit.com/r/mechmarket/comments/h
 
 It's based on the AtMega32u4 Microcontroller. In contrast, my "Maludo Uno" is based on the weaker, but cheaper AtTiny85/Digispark.
 
-## My Design
+## My "Maludo Uno" Design
 
-I used my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) Arduino Script to be able to use Morse Code for Input. Before I hardly knew any Morse Codes, but I reckoned this would be quite a fun project for getting involved into Morse Code.
+I used my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) Arduino Script to be able to use Morse Code for Input. Previously I hardly knew any Morse Codes, but I reckoned this would be quite a fun project for getting involved into Morse Code.
 
 ### Advantages
 
