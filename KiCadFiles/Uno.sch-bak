@@ -1,0 +1,99 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5F514096
+P 2800 2250
+F 0 "K1" H 2800 2483 60  0000 C CNN
+F 1 "KEYSW" H 2800 2150 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 2250 60  0001 C CNN
+F 3 "" H 2800 2250 60  0000 C CNN
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ehre7:Digispark U1
+U 1 1 5F514B9F
+P 1500 2200
+F 0 "U1" H 1500 1819 60  0000 C CNN
+F 1 "Digispark" H 1500 1713 60  0000 C CNN
+F 2 "ehre6:Digispark" H 1550 3300 60  0001 C CNN
+F 3 "" H 1800 2200 60  0001 C CNN
+F 4 "0.00@0" H 1550 3400 60  0001 C CNN "Pricing"
+F 5 "Digispark Microcontroller" H 1650 3150 60  0001 C CNN "Description"
+F 6 "Digistump" H 1500 3250 60  0001 C CNN "Manufacturer"
+	1    1500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2250 3100 2750
+Wire Wire Line
+	850  2750 3100 2750
+Wire Wire Line
+	850  1950 1000 1950
+Wire Wire Line
+	850  1950 850  2750
+Wire Wire Line
+	1000 2150 900  2150
+Wire Wire Line
+	900  2150 900  1400
+Wire Wire Line
+	900  1400 950  1400
+$Comp
+L power:GND #PWR0101
+U 1 1 5F6A3AB8
+P 2000 2450
+F 0 "#PWR0101" H 2000 2200 50  0001 C CNN
+F 1 "GND" H 2005 2277 50  0000 C CNN
+F 2 "" H 2000 2450 50  0001 C CNN
+F 3 "" H 2000 2450 50  0001 C CNN
+	1    2000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F6A4253
+P 2500 2250
+F 0 "#PWR0102" H 2500 2000 50  0001 C CNN
+F 1 "GND" H 2505 2077 50  0000 C CNN
+F 2 "" H 2500 2250 50  0001 C CNN
+F 3 "" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F6A48B3
+P 1350 1400
+F 0 "#PWR0103" H 1350 1150 50  0001 C CNN
+F 1 "GND" H 1355 1227 50  0000 C CNN
+F 2 "" H 1350 1400 50  0001 C CNN
+F 3 "" H 1350 1400 50  0001 C CNN
+	1    1350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F6A6EE9
+P 1150 1400
+F 0 "SW1" H 1150 1685 50  0000 C CNN
+F 1 "SW_Push" H 1150 1594 50  0000 C CNN
+F 2 "Switches:MSK12C02" H 1150 1600 50  0001 C CNN
+F 3 "~" H 1150 1600 50  0001 C CNN
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
