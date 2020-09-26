@@ -40,20 +40,19 @@ Example:
 
 
 Setting the Speed Switch to "Fast" activates automatic space insertion between words and allows your "dah's" (long presses) to be shorter.\
-If you are in "slow Speed Mode", you must manually add spaces using the morse codes "----" or "•-•••"
+If you set the switch to "Slow", you must manually add spaces between words with the morse codes "----" or "•-•••"
 
 ## How To Do It Yourself
 
 1. Get a [Digispark](https://www.amazon.de/AZDelivery-Digispark-kompatibles-Development-ATtiny85/dp/B076KVKHH1)
-2. Order the PCB (I got mine from [jlcpcb.com](https://jlcpcb.com/)). You can find the gerber files at [./KiCadFiles/gerber](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles)
+2. Order the PCB (I got mine from [jlcpcb.com](https://jlcpcb.com/)). You can find the gerber files at [./KiCadFiles/GerberFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles)
 3. Get yourself a Cherry MX style key switch
 4. (Optional) Get yourself a [MSK 12C01](https://www.ebay.de/itm/SMD-Miniatur-Schiebeschalter-Switch-Schalter-Micro-Mini-Ein-Aus-3-Pin-MSK-12C01/173613966570) SMD Switch
 5. Soldering
    1. Solder Male Headers onto the Digispark (facing upwards)
-   2. Solder the Speed Switch onto the PCB. This requires precise SMD soldering as the switch is very small
+   2. Solder the Speed Switch onto the PCB. This requires precise SMD soldering as the switch is tiny
    3. Solder the key switch onto the PCB
-   4. Drop in the PCB on the male headers of the Digispark
-   5. Solder the male pins to the PCB
+   4. Solder the PCB to the Digispark
 6. Upload the code. Visit my [DigisparkMorseKeyboard repository](https://github.com/maludo99/DigisparkMorseKeyboard) for reference.
 
 
