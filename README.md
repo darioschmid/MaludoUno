@@ -7,11 +7,11 @@ It runs my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorse
 
 ## Inspiration
 
-I was heavily inspired by [Snipeye's Uno](https://www.reddit.com/r/mechmarket/comments/h8b27d/gb_uno_last_chance/):
+I was inspired by [Snipeye's Uno](https://www.reddit.com/r/mechmarket/comments/h8b27d/gb_uno_last_chance/):
 
 ![Picture](https://i.imgur.com/OqPyWbb.jpg)
 
-It is based on a AtMega32u4 Microcontroller. In contrast, my "Maludo Uno" is based on the weaker, but cheaper AtTiny85 / Digispark.
+It's based on the AtMega32u4 Microcontroller. In contrast, my "Maludo Uno" is based on the weaker, but cheaper AtTiny85/Digispark.
 
 ## My Design
 
@@ -20,18 +20,18 @@ I used my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseK
 ### Advantages
 
 * More cost efficient: 5 Digispark Boards are about 10€ on [Banggood](https://www.banggood.com/5Pcs-Digispark-Kickstarter-Micro-USB-Development-Board-For-ATTINY85-Arduino-p-1047665.html?rmmds=search&cur_warehouse=CN) and [Amazon](https://www.amazon.de/AZDelivery-Digispark-kompatibles-Development-ATtiny85/dp/B076KVKHH1) (incl. shipping), whereas a single AtMega32u4 board is at least 5€
-* Added a Speed Switch for adjusting the Morse Code timings
+* Speed Switch for adjusting the Morse Code timings
 * Smaller
 
 ### Disadvantages
 
-* No support for a RGB LED, because the Digispark simply has too little available pins
-* Not QMK compatible (AtTiny has no native USB support)
+* No support for a RGB LED (too little available pins on the Digispark)
+* Not QMK support (but full Arduino IDE support)
 
 
 ## How To Use It
 
-Visit [DigiskarkMorseCode/MorseCodes.txt](https://raw.githubusercontent.com/maludo99/DigisparkMorseKeyboard/master/MorseCodes.txt), or open a Text Editor and hold the key for 4sec. It prints out all available Morse Codes.
+Visit [DigisparkMorseCode/MorseCodes.txt](https://raw.githubusercontent.com/maludo99/DigisparkMorseKeyboard/master/MorseCodes.txt), or open a Text Editor and hold the key down for 4sec. It prints out all available Morse Codes.
 
 Example:
 
