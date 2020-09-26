@@ -20,8 +20,8 @@ Go to [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeybo
 
 ### Advantages
 
-* More cost efficient: 5 Digispark Boards are about 10€ on [Banggood](https://www.banggood.com/5Pcs-Digispark-Kickstarter-Micro-USB-Development-Board-For-ATTINY85-Arduino-p-1047665.html?rmmds=search&cur_warehouse=CN) and 11€ on [Amazon](https://www.amazon.de/AZDelivery-Digispark-kompatibles-Development-ATtiny85/dp/B076KVKHH1) (incl. shipping), whereas a single AtMega32u4 board is at least 5€
-* Added a Speed Switch for adjusting the Morse Code timings.
+* More cost efficient: 5 Digispark Boards are about 10€ on [Banggood](https://www.banggood.com/5Pcs-Digispark-Kickstarter-Micro-USB-Development-Board-For-ATTINY85-Arduino-p-1047665.html?rmmds=search&cur_warehouse=CN) and [Amazon](https://www.amazon.de/AZDelivery-Digispark-kompatibles-Development-ATtiny85/dp/B076KVKHH1) (incl. shipping), whereas a single AtMega32u4 board is at least 5€
+* Added a Speed Switch for adjusting the Morse Code timings
 * Smaller
 
 ### Disadvantages
@@ -32,7 +32,7 @@ Go to [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeybo
 
 ## Operation
 
-Visit [DigiskarkMorseCode/MorseCodes.txt](https://raw.githubusercontent.com/maludo99/DigisparkMorseKeyboard/master/MorseCodes.txt), or open a Text Editor and hold the key for 5sec. It prints out all available Morse Codes.
+Visit [DigiskarkMorseCode/MorseCodes.txt](https://raw.githubusercontent.com/maludo99/DigisparkMorseKeyboard/master/MorseCodes.txt), or open a Text Editor and hold the key for 4sec. It prints out all available Morse Codes.
 
 Example:
 ```
@@ -43,9 +43,7 @@ Example:
 Setting the Speed Switch to "Fast" activates automatic space insertion between words and allows your "dah's" (long presses) to be shorter.\
 If you are in "slow Speed Mode", you must manually add spaces using the morse codes "----" or "•-•••"
 
-Now you can start morsing!
-
-## KiCad PCB Design
+## How To Do It Yourself
 
 You can find the KiCad PCB Design files aswell as the gerber files at [./KiCadFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles). The PCB wil look like this:
 
