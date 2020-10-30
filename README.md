@@ -9,7 +9,7 @@ It runs my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorse
 
 I was inspired by [Snipeye's Uno](https://www.reddit.com/r/mechmarket/comments/h8b27d/gb_uno_last_chance/):
 
-![Picture](https://i.imgur.com/OqPyWbb.jpg)
+![Picture](https://github.com/maludo99/MaludoUno/blob/master/Uno.jpg?raw=true)
 
 It's based on the AtMega32u4 Microcontroller. In contrast, my "Maludo Uno" is based on the weaker, but cheaper AtTiny85/Digispark.
 
