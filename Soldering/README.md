@@ -1,4 +1,4 @@
-## Solder the MaludoUno
+## Assembling the MaludoUno
 
 
 ### Solder Speed Switch
