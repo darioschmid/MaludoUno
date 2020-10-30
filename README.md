@@ -48,7 +48,7 @@ If you set the switch to "Slow", you must manually add spaces between words with
 2. Order the PCB (I got mine from [jlcpcb.com](https://jlcpcb.com/)). You can find the gerber files at [./KiCadFiles/GerberFiles](https://github.com/maludo99/MaludoUno/tree/master/KiCadFiles)
 3. Get yourself a Cherry MX style key switch
 4. (Optional) Get yourself a [MSK 12C01](https://www.ebay.de/itm/SMD-Miniatur-Schiebeschalter-Switch-Schalter-Micro-Mini-Ein-Aus-3-Pin-MSK-12C01/173613966570) SMD Switch
-5. [Soldering] (https://github.com/maludo99/MaludoUno/tree/master/Soldering)
+5. [Soldering](https://github.com/maludo99/MaludoUno/tree/master/Soldering)
    1. Solder Male Headers onto the Digispark (facing upwards)
    2. Solder the Speed Switch onto the PCB. This requires precise SMD soldering as the switch is tiny
    3. Solder the key switch onto the PCB
