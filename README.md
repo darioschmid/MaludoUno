@@ -3,7 +3,7 @@
 How to make the Maludo Uno, a single key Digispark Morse Code Keyboard mainly intended as a keychain suitable gadget.\
 It runs my [Digispark Morse Keyboard](https://github.com/maludo99/DigisparkMorseKeyboard) Arduino script.
 
-![Picture](...)
+![Picture](https://github.com/maludo99/DigisparkMorseKeyboard/blob/master/Images/MaludoUno.jpg?raw=true)
 
 ## Inspiration
 
